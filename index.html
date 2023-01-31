@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- Main element -->
+    <main id="main">
+      <!-- Flex Div -->
+      <div class="flex-container">
+        <!-- Item1 -->
+        <div class="item1">
+          <h3 class="item1__title">Log In</h3>
+          <p class="item1__content">
+            Log in to your account to upload or download pictures, videos or
+            music.
+          </p>
+          <input
+            type="text"
+            placeholder="Enter Email Address"
+            class="formControl"
+          />
+          <div class="forgot">
+            <a href="#">Forgot Password</a>
+            <button class="next-btn">
+              <span>Next</span> <i class="fa-solid fa-arrow-right fa-1x"></i>
+            </button>
+          </div>
+
+          <!-- Second Child -->
+          <div class="social-icons">
+            <h5 class="social-icons__text">Or log in with</h5>
+            <div class="btn-icons">
+              <button>
+                <img src="./assets/facebook.png" alt="" /> <span>Facebook</span>
+              </button>
+              <button>
+                <img src="./assets/google.png" alt="" /><span> Google</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="item2">
+          <img src="./assets/banner.jpeg" alt="" />
+          <div class="close">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="svg"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
